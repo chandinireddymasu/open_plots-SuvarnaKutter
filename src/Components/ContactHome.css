@@ -1,0 +1,115 @@
+.container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .cicons{
+    color:red;
+    font-size: 20px;
+  }
+  .corporate-office,
+  .map
+  .quick-enquiry {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  h3 {
+    border-bottom: 2px solid orange;
+    padding-bottom: 5px;
+  }
+  
+  /* ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+   */
+  .quick-enquiry form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quick-enquiry input,
+  .quick-enquiry button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  
+  .quick-enquiry button {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .corporate-office{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      
+    }
+    .map{
+      display: flex;
+      margin-left: 100px;
+      justify-content: center;
+    }
+    .quick-enquiry{
+      margin-left: 100px;
+      
+    }
+    .quick-enquiry input,
+  .quick-enquiry button {
+  width:80vw;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+    .corporate-office,
+    .map,
+    .quick-enquiry {
+      
+      margin-bottom: 20px;
+      width: 100%;
+      margin-left:"50px"
+    }
+  
+    .popup {
+      width: 80%;
+      text-align: center;
+    }
+  }

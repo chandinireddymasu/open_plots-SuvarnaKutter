@@ -1,0 +1,136 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Section Header */
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* margin-bottom: 20px; */
+  }
+  
+  /* Icons Container */
+  .icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    /* margin-bottom: 20px; */
+  }
+  
+  /* Icon Box */
+  .icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+  
+  }
+  
+  /* Icon Image */
+  .icon-img {
+    width: 80px;
+    height: auto;
+  }
+  
+  /* Content & Image Container */
+  .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Text Wrapper */
+  .text-wrapper {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+  }
+  
+  /* Image Wrapper */
+  .image-wrapper {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .content-container {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .text-wrapper {
+      order: 1; /* Moves text up */
+    }
+  
+    .image-wrapper {
+      order: 2; /* Moves image down */
+    }
+  }
+
+  .text-container {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px;
+  }
+  
+  /* Image Container */
+  .image-container {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343a40; 
+    border-radius: 8px;
+  }
+  
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Ensure Image is Always Below on Small Screens */
+  @media (max-width: 768px) {
+    .containerPage {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text-container {
+      order: 1;
+      text-align: center;
+    }
+  
+    .image-container {
+      order: 2;
+    }
+  }
+  
+  
+  

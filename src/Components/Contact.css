@@ -1,0 +1,79 @@
+
+.contact-banner {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    background-size: "100% 100%";
+   
+
+    
+  }
+  
+  .banner-overlay {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    padding: 20px 40px;
+    border-radius: 10px;
+  }
+  
+  .banner-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .breadcrumb {
+    font-size: 16px;
+  }
+  
+  .breadcrumb span {
+    margin: 0 5px;
+  }
+  
+  .breadcrumb .active {
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    .contact-banner {
+      height: 250px;
+      width:800px;
+      
+    }
+  
+    .banner-title {
+      font-size: 1.75rem; /* 28px */
+    }
+  
+    .breadcrumb {
+      font-size: 0.875rem; /* 14px */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-banner {
+      height: 200px;
+      width:8
+      00px;
+
+      
+    }
+  
+    .banner-title {
+      font-size: 1.5rem; /* 24px */
+    }
+  
+    .banner-overlay {
+      padding: 15px 20px;
+    }
+  
+    .breadcrumb {
+      font-size: 0.75rem; /* 12px */
+    }
+  }
+  

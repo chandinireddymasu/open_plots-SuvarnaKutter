@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: #fdf8f4;
+    flex-wrap: wrap;
+  }
+  
+  .text-section {
+    max-width: 50%;
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .know-more-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .image {
+    max-width: 40%;
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-section, .image {
+      max-width: 100%;
+      text-align: center;
+    }
+  }

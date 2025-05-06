@@ -1,0 +1,432 @@
+.about-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url('../assets/Images/bg1.webp') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+  }
+  .about-content{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color:#444
+  }
+  
+  
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Ensures exact alignment */
+  .breadcrumb-container {
+    display: flex;
+    align-items: center; /* Aligns items on the same x-axis */
+    justify-content: center;
+    font-size: 16px;
+  }
+  
+  .breadcrumb {
+    color: lightgray;
+    margin: 0 5px; /* Adds spacing between elements */
+  }
+  
+  .breadcrumb-separator {
+    color: white;
+  }
+  .exploring-heading{
+    color:black
+  }
+
+  @media (max-width: 768px) {
+    .breadcrumb-text {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .breadcrumb-text {
+      font-size: 14px;
+    }
+  }
+
+  /* content */
+  .about-container2 {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 40px 0;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    
+  }
+  
+  .underline {
+    width: 50px;
+    height: 3px;
+    background: orange;
+    margin: 5px 0 15px;
+    
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+   
+   
+  }
+  
+  .features-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    
+  }
+  
+  .feature-box {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    animation: fadeIn 1s ease-in-out;
+   
+    
+  }
+  
+  
+  .icons {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .exploring-heading {
+    margin-top: 40px;
+  }
+   @media (max-width: 768px) {
+    .feature-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    h2 {
+      font-size: 18px;
+      margin-left: 50px;
+    }
+  
+    .about-text, .feature-card p {
+      font-size: 14px;
+    }
+    p{
+        margin-left: 50px;
+    }
+    .feature-box{
+        margin-left: 50px;
+        
+    }
+    .underline{
+        margin-left: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feature-container {
+      grid-template-columns: 1fr;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+    p{
+        margin-left: 50px;
+    }
+    .feature-box{
+        margin-left: 50px;
+        
+    }
+    .underline{
+        margin-left: 50px;
+    }
+  } 
+
+  /* --third section- */
+  
+  
+  
+ 
+
+  /* --new css--
+   */
+   .milestones-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #fff;
+    animation: slideUp 1s ease-in-out;
+
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+    color:#ddd
+  }
+  
+  /* Grid layout with exactly 3 items per row */
+  .milestone-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+  
+  /* Milestone Card */
+  .milestone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .milestone:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Icon inside a white circle */
+  .icons {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #ff6600;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    animation: bounce 1s infinite;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 900px) {
+    .milestone-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .milestone-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  /* Keyframe Animations */
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+/* relators */
+/* General container styling */
+.realtors-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Title */
+.realtors-container h1 {
+  font-size: 32px;
+  color: #000;
+}
+
+/* Content layout */
+.realtors-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f8f9fc;
+}
+
+/* Image container */
+.realtors-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 15px;
+  position: relative;
+}
+.background-dots {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-image: radial-gradient(rgb(206, 124, 124) 5%, transparent 0);
+  background-size: 10px 10px;
+  opacity: 0.2;
+  left: 10%;
+  top: 15%;
+}
+
+.image-left {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  width: 240px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-top-right {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  width: 260px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-bottom-right {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 260px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Features list */
+.realtors-features {
+  list-style: none;
+  padding: 0;
+}
+
+.realtors-features li {
+  font-size: 18px;
+  color: #333;
+  padding: 8px 0;
+  transition: all 0.3s ease-in-out;
+  text-align: start;
+  padding-left: 50px;
+}
+
+/* Responsive Design */
+
+ 
+  @media (max-width: 768px) {
+    .realtors-content {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    
+  
+    
+    .realtors-features li{
+      align-items: start;
+    }
+    .realtors-images {
+      grid-template-columns: 3fr;
+      grid-template-rows: auto;
+      width:fit-content;
+    }
+  
+    .image-left {
+     display:none
+    
+    }
+  
+    .image-top-right  {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      
+    }
+  
+    .image-bottom-right {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+      
+    }
+  }
+
+
+  
+  
