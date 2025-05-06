@@ -1,0 +1,172 @@
+.container2 {
+   
+    width:90%;
+    margin:auto;
+    padding: 20px 0;
+    /* background-color: red; */
+    
+  }
+  .image-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 15px; Adds spacing between images */
+    position: relative;
+  
+  }
+  .image-section img {
+    width: 250px; /* Set a uniform width */
+    height: auto;
+    border-radius: 8px; /* Smooth edges for better design */
+    object-fit: cover;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Adds depth */
+  }
+  .image1, .image2, .image3 {
+    max-width: 100%;
+    height: auto;
+    margin:10px;
+   
+  }
+  
+  .image1 { 
+    width: 40%;
+    z-index: 3;
+    position: absolute;
+    top:-200px;
+    left:100px;
+    
+    
+  
+  
+  }
+  .image2 { 
+    width: 45%; 
+    position: absolute;
+     top: 50%; 
+     left:50%;
+     z-index: 2;
+    transform: translateX(-50%,-50%);
+    }
+  .image3 {
+     width: 50%;
+    z-index: 1;
+    position: absolute;
+    left:200px;
+    transform: translateX(30px);
+  
+  }
+  
+  
+  
+  .image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images in the div */
+    position: relative;
+  }
+  
+  .image-section img {
+    width: 50%; /* Adjust image size based on container */
+    max-width: 300px; /* Prevent oversized images */
+    height: auto;
+    position: relative;
+    
+    transition: all 0.3s ease-in-out;
+  
+  }
+  
+  
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .image-section {
+      align-items: center; /* Keep images centered */
+    }
+  
+    .image-section img {
+      width: 60%; /* Make images more responsive */
+      max-width: 250px;
+      transform: none; 
+      /* Reset diagonal effect */
+      
+  
+    }
+  }
+  
+  .image1 {
+    top: 0;
+    left: 0;
+  }
+  
+  .image2 {
+    top: -70px;
+    left: 50px;
+  
+  }
+  
+  .image3 {
+    top: -180px; /* Adjust for step effect */
+    left: 70px;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 80px; */
+    padding: 10px;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  .step:nth-child(1) { animation-delay: 0.5s; }
+  .step:nth-child(2) { animation-delay: 1s; }
+  .step:nth-child(3) { animation-delay: 1.5s; }
+  
+  i {
+    font-size: 24px;
+    color: red;
+  }
+  
+  .heading {
+    color: red;
+    letter-spacing: 0.1vw;
+    font-size: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  p {
+    color: green;
+    font-size: 12px;
+    
+    line-height: 1.5;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  @media (max-width: 768px) {
+    .image-section {
+      order: -1; /* Moves images above content */
+    }
+  
+    .content {
+      order: 1; /* Moves content below images */
+      text-align: center;
+    }
+  
+    .image-section img {
+      width: 90%; /* Make images responsive */
+      max-width: 250px;
+      transform: none; /* Reset any diagonal effect */
+      margin: 10px auto; /* Center images */
+    }
+  }

@@ -1,0 +1,192 @@
+/* TripleForms.css */
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    background: url('../assets/Images/sign.jpg') #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } */
+  .side-image#form-image {
+    width: 100%;
+    height: 250px;
+    background-image: url('../assets/Images/sign2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  }
+  .container3 {
+    width: 1100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/Images/sign.jpg'); /* use correct path */
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+    padding-bottom: 90px;
+  }
+  
+  .card3 {
+    display: flex;
+    flex-direction: row;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  /* background-image: linear-gradient(to right, black, #0cae6d); */
+  
+  min-height: 100px;
+  }
+  
+  .left-panel {
+    width: 35%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .left-panel img {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+  }
+  .side-image#form-image{
+    height:100px;
+  }
+  
+  .tabs {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .tabs button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: none;
+    border: 1px solid #0cae6d;
+    color: #0cae6d;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .tabs .active {
+    background: #0cae6d;
+    color: white;
+  }
+  
+  .right-panel {
+    width: 65%;
+    padding: 30px;
+    background: #fff;
+  }
+  .head{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .form-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-box h2 {
+    margin-bottom: 20px;
+    color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-style: italic;
+  }
+  
+  .form-box input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ 
+  }
+  
+  .form-box button {
+    padding: 12px;
+    background-color: #0cae6d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-box .link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container3{
+        margin-right: -450px;
+    }
+    .card3 {
+      flex-direction: column;
+    }
+  
+    .left-panel,
+    .right-panel {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .tabs {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .tabs button {
+      width: auto;
+      flex: 1 1 30%;
+      min-width: 100px;
+    }
+  
+    #form-image {
+      height: 150px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container3{
+        margin-right: -450px;
+    }
+    .form-box h2 {
+      font-size: 22px;
+    }
+  
+    .tabs button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .form-box button {
+      font-size: 16px;
+    }
+  
+    .form-box input {
+      font-size: 14px;
+    }
+  }
+  
