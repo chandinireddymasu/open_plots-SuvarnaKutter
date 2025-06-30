@@ -14,7 +14,7 @@ import ContactForm from './Components/ContactHome';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PropertyList from './Components/PropertyList';
 import Ongoing from './Components/Ongoing';
-import Upcoming from './Components/upcoming';
+import Upcoming from './Components/Upcoming';
 import Completed from './Components/Completed';
 import ContactBanner from './Components/Contact';
 import SignIn from './Components/signin';

@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import r from "../assets/Images/Refinance.png";
 import h2 from "../assets/Images/home2.png";
-import l from "../assets/Images/loan.png";
+import l from "../assets/Images/Loan.png";
 import i3 from "../assets/Images/image3.png";
 import { motion } from "framer-motion";
 import "./MainSection.css"
