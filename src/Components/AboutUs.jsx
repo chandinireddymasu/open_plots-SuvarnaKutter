@@ -36,7 +36,7 @@ const AboutUs = () => {
       {/* <h1>Creating Icons of Perfection!</h1> */}
       <p className="underline"></p>
       <p className='about-content'>
-        At SK Group, converting land parcels into best lifestyle destinations is our passion. 
+        At SR Group, converting land parcels into best lifestyle destinations is our passion. 
         Led by a first-generation young and dynamic managing director with more than two decades 
         of experience behind him, we comprise a team of professionals who are experts in 
         architecture, geology, town planning, finance, hospitality, IT, administration, and marketing.

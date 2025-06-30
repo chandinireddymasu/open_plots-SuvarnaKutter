@@ -8,20 +8,28 @@ const Upcoming = () => {
 
   const cardsData = [
     {
-      title: "SOUTHERN VISTA",
-      location: "Bheemaram, Shadnagar, Hyderabad",
+      title: "FUTURE CITY",
+      location: "FUTURE CITY, Hyderabad",
       size: "46.67 to 500 Sq. yards",
       description: "Situated in the rapidly growing area of Bheemaram, Shadnagar, Southern Vista is a high-end plotted community designed for those who value exclusivity and long-term investment potential...",
       image: img1,
       price: "₹9,999 per Sq. Yard",
     },
     {
-      title: "GREEN MEADOWS",
-      location: "Chegunta, Hyderabad",
+      title: "VIJAYAWADA ",
+      location: "Bandar Road, Vijayawada, AP",
       size: "165.00 to 475.00 sq. yards",
       description: "Green Meadows offers open plots for sale in Chegunta, Hyderabad with nature-centric surroundings and future developments...",
       image: img2,
       price: "₹8,499 per Sq. Yard",
+    },
+    {
+      title: "DAMARAPALLI PHASE 2",
+      location: "DAMARAPALLI PHASE 2, Amaravati, AP",
+      size: "200 to 600 sq. yards",
+      description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
+      image: img2,
+      price: "₹10,200 per Sq. Yard",
     },
     {
       title: "NATURE'S NEST",

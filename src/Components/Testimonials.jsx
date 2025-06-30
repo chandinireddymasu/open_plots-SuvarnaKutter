@@ -6,17 +6,17 @@ import './Testimonials.css';
 const testimonials = [
   {
     name: 'RAJESH KUMAR',
-    text: 'Excellent customer service! SK Group guided me through the entire process seamlessly.',
+    text: 'Excellent customer service! SR Group guided me through the entire process seamlessly.',
     rating: 5,
   },
   {
     name: 'PRIYA SHARMA',
-    text: 'A very professional and dedicated team. I am satisfied with my investment in SK projects.',
+    text: 'A very professional and dedicated team. I am satisfied with my investment in SR projects.',
     rating: 5,
   },
   {
     name: 'ANIL VERMA',
-    text: 'SK Group’s professionalism and commitment to excellence are commendable.',
+    text: 'SR Group’s professionalism and commitment to excellence are commendable.',
     rating: 4,
   },
   {

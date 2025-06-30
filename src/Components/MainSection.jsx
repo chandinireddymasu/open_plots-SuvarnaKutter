@@ -33,8 +33,8 @@ const MainSection = () => {
     <Container fluid className="main-container" >
       {/* Section Header */}
       <Container className="section-header">
-        <h3 style={{ fontWeight: "700", color: "brown" }}>WHY CHOOSE SUVARNA KUTEER?</h3>
-        <p style={{ fontSize: "1rem", fontWeight: "600" }}>Choose Suvarna Kuteer For A Better Tomorrow</p>
+        <h3 style={{ fontWeight: "700", color: "brown" }}>WHY CHOOSE SUVARNAKUTEER?</h3>
+        <p style={{ fontSize: "1rem", fontWeight: "600" }}>Choose SuvarnaKuteer For A Better Tomorrow</p>
       </Container>
 
       {/* Icons Section */}
@@ -65,7 +65,7 @@ const MainSection = () => {
           <h6 className="text-success"  style={{fontWeight:"700"}}>Your Trusted Partner in Real Estate</h6>
           <p  style={{fontFamily:"sans-serif",fontSize:"15px",color:"black",fontWeight:"500",letterSpacing:"0.1vw"}}>
             Choosing the right real estate partner is crucial for achieving your dream of owning a home. 
-            At Suvarna Kuteer, we prioritize trust, quality, and customer satisfaction. Our team of experts 
+            At SuvarnaKuteer, we prioritize trust, quality, and customer satisfaction. Our team of experts 
             is committed to providing exceptional service and guidance throughout your home-buying journey.
           </p>
           <p style={{fontFamily:"sans-serif",fontSize:"15px",color:"black",fontWeight:"500",letterSpacing:"0.1vw"}}>

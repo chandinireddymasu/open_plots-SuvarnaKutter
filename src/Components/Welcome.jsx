@@ -12,15 +12,15 @@ const WelcomeSection = () => {
           viewport={{ once: true }}
           className="text-section"
         >
-          <h1 style={{color:"green"}}>Welcome to SuvarnaKutter PVT LTD</h1>
+          <h1 style={{color:"green"}}>Welcome to SuvarnaKuteer PVT LTD</h1>
           <p style={{color:"black",fontSize:"15px",fontWeight:"500"}}>
-            "Since our inception in 2017, we have been committed to offering our clients premium DTCP and RERA-approved open plots and farmlands...
+            "Since our inception in 2014, we have been committed to offering our clients premium DTCP and RERA-approved open plots and farmlands...
           </p>
           <p style={{color:"black",fontSize:"15px",fontWeight:"500"}}>"Thank you for visiting our website. We look forward to helping you find the perfect piece of land that meets your needs and aspirations."</p>
           <p style={{color:"black" ,fontSize:"15px",fontWeight:"500"}}>"Warm regards,"</p>
-          <h3>– XYZ</h3>
-          <p style={{color:"black" ,fontSize:"15px",fontWeight:"500"}}>Managing Director</p>
-          <p style={{color:"black",fontSize:"15px",fontWeight:"500"}}>SuvarnaKutter PVT LTD.</p>
+          <h3></h3>
+          <p style={{color:"black" ,fontSize:"15px",fontWeight:"500"}}>Managing Director & Executive Director</p>
+          <p style={{color:"black",fontSize:"15px",fontWeight:"500"}}>SuvarnaKuteer PVT LTD.</p>
           <motion.button 
             whileHover={{ scale: 1.1 }} 
             whileTap={{ scale: 0.9 }}
