@@ -1,9 +1,9 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
-import img from "../assets/Images/home1.jpg";
-import img1 from "../assets/Images/homepage.jpg";
-import img2 from "../assets/Images/image4.jpg";
+import img from "../assets/Images/homepage.jpg";
+import img1 from "../assets/Images/homepage1.png";
+import img2 from "../assets/Images/homepage2.jpg";
 import "../Components/Section1.css";
 
 const ImageSlider = () => {
