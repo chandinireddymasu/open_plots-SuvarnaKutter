@@ -166,7 +166,9 @@ const styles = {
   },
   introHeading: {
     fontSize: '28px',
-    color: '#333',
+    color: '#F26522',
+    marginTop:'10px',
+
     marginBottom: '10px',
   },
   introParagraph: {
