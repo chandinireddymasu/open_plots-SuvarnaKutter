@@ -165,10 +165,9 @@ const styles = {
     marginBottom: '40px',
   },
   introHeading: {
+  marginTop:'50px',
     fontSize: '28px',
     color: '#F26522',
-    marginTop:'10px',
-
     marginBottom: '10px',
   },
   introParagraph: {

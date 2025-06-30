@@ -125,8 +125,9 @@ const styles = {
     marginBottom: '40px',
   },
   introHeading: {
+   marginTop:'20px',
     fontSize: '28px',
-    color: '#333',
+    color: '#F26522',
     marginBottom: '10px',
   },
   introParagraph: {

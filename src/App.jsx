@@ -18,6 +18,7 @@ import Upcoming from './Components/upcoming';
 import Completed from './Components/Completed';
 import ContactBanner from './Components/Contact';
 import SignIn from './Components/signin';
+import Footer from './Components/Footer';
 
 
 
@@ -62,6 +63,7 @@ let App=()=>{
     
     
         <ContactForm />
+        <Footer />
 
         
 
