@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 import img from "../assets/Images/homepage.jpg";
-import img1 from "../assets/Images/homepage1.png";
+import img1 from "../assets/Images/home1.jpg";
 import img2 from "../assets/Images/homepage2.jpg";
 import "../Components/Section1.css";
 
