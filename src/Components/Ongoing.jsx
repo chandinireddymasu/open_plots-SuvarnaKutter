@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import img1 from '../assets/Images/img3.jpg';
-import img2 from '../assets/Images/img3.jpg';
+import newtownship from '../assets/Images/newtownship_arch.jpg';
+import lam from '../assets/Images/lam1.jpg';
+import etheru from '../assets/Images/etheru.jpg';
+import sukhibava from '../assets/Images/sukhibava2.jpg';
+import healthcity from '../assets/Images/healthcity.jpg';
+import kantheru from '../assets/Images/kantheru.jpg';
+import logillu from '../assets/Images/logillu.jpg';
+import damarapalli from '../assets/Images/damarapalli.jpg';
+
 
 const Ongoing = () => {
   const [visiblePriceIndex, setVisiblePriceIndex] = useState(null);
@@ -10,81 +17,49 @@ const Ongoing = () => {
     {
       title: "NEW TOWNSHIP",
       location: "NEW TOWNSHIP Phase 4 & 5, LAM, Amaravati Road, Guntur, AP",
-      size: "200 to 600 sq. yards",
-      description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
-      price: "₹10,200 per Sq. Yard",
+      size: "200 to 900 sq. yards",
+      description: "Our DTCP and CRDA approved venture near Lam, Guntur offers 455+ open plots across 6 phases, complete with essential amenities like a Children's park, Yoga space, Gym, Street Lights, Avenue plants, Compound wall, and water tank etc..",
+      image: newtownship,
+      price: "₹25,000 per Sq. Yard",
     },
     {
       title: "DAMARAPALLI PHASE 2",
       location: "DAMARAPALLI PHASE 2, Amaravati, AP",
-      size: "200 to 600 sq. yards",
-      description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
-      price: "₹10,200 per Sq. Yard",
+      size: "150 to 1100 sq. yards",
+      description: "We developed a premium open plots venture spread across 26 acres with 300+ well-planned plots, offering all modern amenities. The venture is strategically located near the Amaravati Inner Ring Road, ensuring excellent connectivity. It is also close to leading educational institutions, making it ideal for families and investors...",
+      image: damarapalli,
+      price: "₹15,000 per Sq. Yard",
     },
     {
       title: "KANTHERU PHASE 2",
       location: "KANTHERU PHASE 2, Amaravati, AP",
       size: "200 to 600 sq. yards",
-      description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
+      description: "Kantheru is experiencing a surge in development, driven by its proximity to the Amaravati capital region and ongoing infrastructure projects. This makes it an attractive location for both residential and investment purposes. The area is witnessing rapid appreciation in land value, making now the perfect time to invest.",
+      image: kantheru,
       price: "₹10,200 per Sq. Yard",
     },
     {
       title: "LOGILLU",
       location: "LOGILLU Phase 2, Mangamuru Road, ONGOLE, AP",
       size: "150 to 300 sq. yards",
-      description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
-      image: img1,
+      description: "Ongole is a rapidly growing city in Andhra Pradesh, benefiting from strong highway connectivity and participation in the Amrit Bharat Scheme. The city relies on its Summer Storage Tank for drinking water and has seen significant development, including a 25-acre open plot venture with comprehensive facilities, greenery, and wide roads....",
+      image: logillu,
       price: "₹7,800 per Sq. Yard",
     },
     {
       title: "SUKHIBAVA",
       location: "Sukhibava Block 2C, Etheru, Bapatla, AP",
-      size: "150 to 300 sq. yards",
-      description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
-      image: img1,
-      price: "₹7,800 per Sq. Yard",
+      size: "150 to 680 sq. yards",
+      description: "We’ve launched a premium open‑plots venture across 20 acres with 200 meticulously planned plots near Eheturu, Bapatla, equipped with modern infrastructure and amenities. Positioned along NH‑216 and the upcoming Bengaluru–Vijayawada expressway corridor, the site offers exceptional connectivity With Bapatla district being developed as a major tourism and aquaculture hub...",
+      image: etheru,
+      price: "₹10,800 per Sq. Yard",
     },
     {
       title: "Health City",
       location: "Health City, Near Medical College, PIDUGURALLA, AP",
-      size: "200 to 600 sq. yards",
-      description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
-      price: "₹10,200 per Sq. Yard",
-    },
-    {
-      title: "SOUTHERN VISTA",
-      location: "Bheemaram, Shadnagar, Hyderabad",
-      size: "46.67 to 500 Sq. yards",
-      description: "Situated in the rapidly growing area of Bheemaram, Shadnagar, Southern Vista is a high-end plotted community designed for those who value exclusivity and long-term investment potential...",
-      image: img1,
-      price: "₹9,999 per Sq. Yard",
-    },
-    {
-      title: "GREEN MEADOWS",
-      location: "Chegunta, Hyderabad",
-      size: "165.00 to 475.00 sq. yards",
-      description: "Green Meadows offers open plots for sale in Chegunta, Hyderabad with nature-centric surroundings and future developments...",
-      image: img2,
-      price: "₹8,499 per Sq. Yard",
-    },
-    {
-      title: "NATURE'S NEST",
-      location: "Yadagirigutta, Hyderabad",
-      size: "150 to 300 sq. yards",
-      description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
-      image: img1,
-      price: "₹7,800 per Sq. Yard",
-    },
-    {
-      title: "CITY GARDENS",
-      location: "Mokila, Hyderabad",
-      size: "200 to 600 sq. yards",
-      description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
+      size: "200 to 1200 sq. yards",
+      description: "Health City Layout by Suvarna Kuteer Developers, a DTCP-approved open plots venture in Piduguralla, Palnadu District, near the government hospital and college. Spread across prime residential land with wide roads, open space, and modern planning across Phase I & II. Ideal for peaceful living and smart investment in a rapidly developing location......",
+      image: healthcity,
       price: "₹10,200 per Sq. Yard",
     },
   ];
@@ -194,7 +169,7 @@ const styles = {
   },
   image: {
     width: '100%',
-    height: '160px',
+    height: '400px',
     objectFit: 'cover',
     borderRadius: '10px',
     marginBottom: '10px',
