@@ -82,7 +82,7 @@ const Footer = () => {
       </Container>
        <Row className="justify-content-center">
           <Col md="auto" className="text-center copyright" style={{ color: "white" }}>
-            © 2015 Suvarnakuteer Pvt. Ltd. All rights reserved.
+            © 2025 Suvarnakuteer Pvt. Ltd. All rights reserved.
           </Col>
           
         </Row>

@@ -1,7 +1,17 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import img1 from '../assets/Images/img3.jpg';
-import img2 from '../assets/Images/img3.jpg';
+import lingapuram from '../assets/Images/lingapuram.jpg';
+import pudami from '../assets/Images/pudami.jpg';
+import dharani from '../assets/Images/dharani.jpg'; 
+import healthcity from '../assets/Images/healthcity.jpg'; 
+import kantheru from '../assets/Images/kantheru.jpg'; 
+import logillu from '../assets/Images/logillu.jpg'; 
+import sukhibava from '../assets/Images/sukhibava2.jpg'; 
+import damarapalli from '../assets/Images/damarapalli2.jpg'; 
+import lam from '../assets/Images/lam1.jpg';
+import newtownship from '../assets/Images/newtownship_arch.jpg';
+import etheru from '../assets/Images/etheru.jpg';
+
 
 const Upcoming = () => {
   const [visiblePriceIndex, setVisiblePriceIndex] = useState(null);
@@ -12,7 +22,7 @@ const Upcoming = () => {
       location: "Lingapuram, Amaravati, AP",
       size: "120 to 500 Sq. yards",
       description: "60 acres well planned CRDA and DTCP approved venture Situated in the Amaravati capital city of Navyandhra, Central Government Land Allotments for CBI, GSI, IT Depots. Seed Access Road  Phase 3, Rail Link of Amaravati, Outer Ring Road & Expressways...",
-      image: img1,
+      image: lingapuram,
       price: "₹9,999 per Sq. Yard",
     },
     {
@@ -20,7 +30,7 @@ const Upcoming = () => {
       location: "Pudami, Narasaraopet, AP",
       size: "165.00 to 475.00 sq. yards",
       description: "PUDAMI offers over 450+ thoughtfully planned open plots across 4 phases in Narasaraopet, Andhra Pradesh. Embrace a lifestyle surrounded by nature's beauty, with plots located near JNTU Narasaraopet...                                                 ",
-      image: img2,
+      image: pudami,
       price: "₹8,499 per Sq. Yard",
     },
     {
@@ -28,7 +38,7 @@ const Upcoming = () => {
       location: "Dharani, Palapadu Road, Narasaraopet, AP",
       size: "165.00 to 475.00 sq. yards",
       description: "Discover a prime opportunity to build your future at Dharani, an open plots venture on Palapadu Road in Narasaraopet, Andhra Pradesh. Dharani offers the perfect blend of convenient location and a peaceful environment....",
-      image: img2,
+      image: dharani,
       price: "₹8,499 per Sq. Yard",
     },
     {
@@ -36,7 +46,7 @@ const Upcoming = () => {
       location: "Sukhibava, Appikatla, Bapatla, AP",
       size: "150 to 300 sq. yards",
       description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
-      image: img1,
+      image: sukhibava,
       price: "₹7,800 per Sq. Yard",
     },
     {
@@ -44,7 +54,7 @@ const Upcoming = () => {
       location: "Sukhibava, Etheru, Bapatla, AP",
       size: "150 to 300 sq. yards",
       description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
-      image: img1,
+      image: etheru,
       price: "₹7,800 per Sq. Yard",
     },
     {
@@ -52,7 +62,7 @@ const Upcoming = () => {
       location: "LOGILLU, Mangamuru Road, ONGOLE, AP",
       size: "150 to 300 sq. yards",
       description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
-      image: img1,
+      image: logillu,
       price: "₹7,800 per Sq. Yard",
     },
     {
@@ -60,7 +70,7 @@ const Upcoming = () => {
       location: "Health City, Near Medical College, PIDUGURALLA, AP",
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
+      image: healthcity,
       price: "₹10,200 per Sq. Yard",
     },
     {
@@ -68,7 +78,7 @@ const Upcoming = () => {
       location: "LAM, Amaravati Road, Guntur, AP",
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
+      image: lam,
       price: "₹10,200 per Sq. Yard",
     },
     {
@@ -76,7 +86,7 @@ const Upcoming = () => {
       location: "NEW TOWNSHIP, LAM, Amaravati Road, Guntur, AP",
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
+      image: newtownship,
       price: "₹10,200 per Sq. Yard",
     },
     {
@@ -84,7 +94,7 @@ const Upcoming = () => {
       location: "DAMARAPALLI PHASE 1, Amaravati, AP",
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
+      image: damarapalli,
       price: "₹10,200 per Sq. Yard",
     },
     {
@@ -92,7 +102,7 @@ const Upcoming = () => {
       location: "KANTHERU PHASE 1, Amaravati, AP",
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
-      image: img2,
+      image: kantheru,
       price: "₹10,200 per Sq. Yard",
     }
   ];
@@ -202,7 +212,7 @@ const styles = {
   },
   image: {
     width: '100%',
-    height: '160px',
+    height: '300px',
     objectFit: 'cover',
     borderRadius: '10px',
     marginBottom: '10px',
