@@ -71,7 +71,6 @@ const Media = () => {
         </Carousel>
       ) : (
         <Carousel className="carousel-container" interval={1000} indicators={false} controls={true}>
-        <Carousel className="carousel-container" interval={10} indicators={false} controls={true}>
           {videos.map((video, index) => (
             <Carousel.Item key={index}>
               <div className="video-wrapper fade-in">
