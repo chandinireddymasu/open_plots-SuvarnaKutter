@@ -1,41 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    background: #fdf8f4;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: #fdf8f4;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-section {
+  max-width: 50%;
+  flex: 1;
+  min-width: 300px;
+}
+
+.text-section h1 {
+  font-size: 28px;
+  font-weight: 800;
+  color: green;
+  margin-bottom: 20px;
+  text-align: left; /* Align heading left in all views */
+}
+
+.text-section p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #444; /* Clean readable color */
+  margin-bottom: 10px;
+  line-height: 1.7;
+  text-align: left; /* Ensure left alignment for paragraphs */
+}
+
+.know-more-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.know-more-btn:hover {
+  background-color: darkgreen;
+}
+
+.image {
+  max-width: 40%;
+  flex: 1;
+  min-width: 300px;
+  border-radius: 10px;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: left;
+    padding: 30px 20px;
   }
-  
+
   .text-section {
-    max-width: 50%;
-    flex: 1;
-    min-width: 300px;
+    max-width: 100%;
+    text-align: left;
   }
-  
-  .know-more-btn {
-    background-color: green;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+
+  .text-section h1 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
   }
-  
+
+  .text-section p {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 130px;
+  }
+
   .image {
-    max-width: 40%;
-    flex: 1;
-    min-width: 300px;
+    max-width: 80%;
+    margin-top: 20px;
+    margin-left: 80px;
   }
-  
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .text-section, .image {
-      max-width: 100%;
-      text-align: center;
-    }
+
+  .know-more-btn {
+    font-size: 14px;
   }
+}

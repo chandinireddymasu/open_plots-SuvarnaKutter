@@ -71,66 +71,91 @@
     border-radius: 20px;
     box-shadow: 2px 2px 10px black;
   }
-  
-  /* Responsive Design */
-  @media (max-width: 992px) {
-    .content-container {
-      flex-direction: column-reverse;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .text-wrapper {
-      order: 1; /* Moves text up */
-    }
-  
-    .image-wrapper {
-      order: 2; /* Moves image down */
-    }
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .content-container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0 20px;
   }
 
-  .text-container {
-    flex: 1;
-    min-width: 300px;
-    padding: 30px;
-    background-color: #f8f9fa; /* Light background */
-    border-radius: 8px;
-  }
-  
-  /* Image Container */
-  .image-container {
-    flex: 1;
-    min-width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #343a40; 
-    border-radius: 8px;
-  }
-  
-  .responsive-img {
+  .text-wrapper {
     width: 100%;
+    padding: 10px 0;
+  }
+
+
+  .text-wrapper ul,
+  .text-wrapper li {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 40px;
+  }
+  .text-wrapper p{
+    font-size: 16px;
+     margin-left: 80px;
+
+  }
+  .section-header h3 {
+    font-size: 24px;
+    margin-left: 80px;
+  }
+  .section-header p {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .text-wrapper h6{
+    font-size: 20px;
+    margin-left: 80px;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .content-img {
+    max-width: 80%;
+  }
+
+  .icons-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-box {
+    width: 100%;
+    max-width: 220px;
+    text-align: center;
+  }
+
+  .icon-box p {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon-box {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .icon-img {
+    width: 60px;
     height: auto;
-    object-fit: cover;
-    border-radius: 8px;
   }
-  
-  /* Ensure Image is Always Below on Small Screens */
-  @media (max-width: 768px) {
-    .containerPage {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .text-container {
-      order: 1;
-      text-align: center;
-    }
-  
-    .image-container {
-      order: 2;
-    }
+
+  .text-wrapper p,
+  .text-wrapper ul,
+  .text-wrapper li {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
-  
-  
-  
+}

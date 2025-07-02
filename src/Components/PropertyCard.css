@@ -27,7 +27,13 @@
   
   .card-content {
     padding: 15px;
-    text-align: center;
+    text-align: left;
+  }
+  .card-content h2 {
+    font-size: 24px;
+    margin-left: 20px;
+    color: green;
+    
   }
   
   .read-more {
@@ -38,6 +44,7 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    margin-left: 50px;
   }
   
   .read-more:hover {
@@ -48,6 +55,15 @@
     .property-container {
       flex-direction: column;
       align-items: center;
+    }
+    .card-content p{
+      text-align: left;
+      margin-left: 10px;
+      font-size: 20px;
+    }
+    .card-content h2 {
+      font-size: 20px;
+      margin-left: 50px;
     }
   }
   

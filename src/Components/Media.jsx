@@ -42,7 +42,7 @@ const Media = () => {
       </div>
 
       {activeTab === 'Images' ? (
-        <Carousel className="carousel-container" interval={3000} indicators={false} controls={true}>
+        <Carousel className="carousel-container" interval={10} indicators={false} controls={true}>
           {images.map((image, index) => (
             <Carousel.Item key={index}>
               <img src={image} alt={`Slide ${index + 1}`} className="carousel-image fade-in" />
@@ -50,7 +50,7 @@ const Media = () => {
           ))}
         </Carousel>
       ) : (
-        <Carousel className="carousel-container" interval={null} indicators={false} controls={true}>
+        <Carousel className="carousel-container" interval={10} indicators={false} controls={true}>
           {videos.map((video, index) => (
             <Carousel.Item key={index}>
               <div className="video-wrapper fade-in">

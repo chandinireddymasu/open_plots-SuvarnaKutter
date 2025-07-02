@@ -1,115 +1,132 @@
-/* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
 .core-values {
-    text-align: center;
-    padding: 40px 20px;
-    background: white;
-    animation: fade 1s ease-in-out;
-    
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+  animation: fade 1s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+/* Custom Underline Styling */
+.custom-underline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px auto 20px auto;
+  position: relative;
+}
+
+.custom-underline::before,
+.custom-underline::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: orange;
+  display: block;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  background: white;
+  border: 3px solid orange;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+/* Values Container */
+.values-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Card Styling */
+.value-card {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.value-card:hover {
+  transform: scale(1.05);
+}
+
+/* Icon Styling */
+.icon1 {
+  font-size: 50px;
+  color: green;
+  margin-bottom: 12px;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
   }
-  
-  h2 {
-    font-size: 28px;
-    font-weight: bold;
-    color: #222;
-    margin-bottom: 10px;
-    position: relative;
-    display: inline-block;
+  50% {
+    transform: translateY(-5px);
   }
-  
-  /* Custom Underline Styling */
-  .custom-underline {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 8px auto 20px auto;
-    position: relative;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
   }
-  
-  .custom-underline::before,
-  .custom-underline::after {
-    content: "";
-    width: 50px; /* Length of the lines */
-    height: 3px;
-    background: orange;
-    display: block;
+  100% {
+    opacity: 1;
   }
-  
-  .circle {
-    width: 12px;
-    height: 12px;
-    background: white;
-    border: 3px solid orange;
-    border-radius: 50%;
-    margin: 0 10px;
-  }
-  
-  /* Values Container */
+}
+
+/* Icon bounce on hover */
+.value-card:hover .icon1 {
+  animation: bounce 0.5s ease-in-out;
+}
+
+/* Icon Title Styling */
+.value-card p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
   .values-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  /* Card Styling */
+
   .value-card {
-    background: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 8px;
-    width: 220px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
+    width: 90%;
+    max-width: 300px;
   }
-  
-  .value-card:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Icon Styling with Animation */
+
   .icon1 {
-    font-size: 40px;
-    color: green; /* Ensures all icons are green */
-    margin-bottom: 10px;
-    display: block;
-    transition: transform 0.3s ease-in-out;
+    font-size: 55px;
   }
-  
-  /* Bouncing Animation */
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-5px);
-    }
+
+  .value-card p {
+    font-size: 20px;
+    text-align: center;
   }
-  @keyframes fade {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-    
-  }
-  
-  .value-card:hover .icon {
-    animation: bounce 0.5s ease-in-out;
-  }
-  
-  /* Text Styling */
-  p {
-    font-size: 16px;
-    font-weight: bold;
-    color: #222;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .values-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
+}
