@@ -73,7 +73,7 @@ const Upcoming = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
           >
-            <img src={card.image} alt={card.title} style={styles.image} />
+            <img src={card.image} alt={card.title} style={styles.image} loading="lazy" />
             <h2 style={styles.cardTitle}>{card.title}</h2>
             <div style={styles.infoSection}>
               <p><strong>Location</strong><br />{card.location}</p>

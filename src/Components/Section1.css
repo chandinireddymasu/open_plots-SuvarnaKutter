@@ -7,6 +7,8 @@
   width: 100%;
   height: 100vh;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 .carousel-container {
@@ -61,14 +63,32 @@
 
 /* mobile adjustments */
 @media (max-width: 768px) {
+  /* avoid forcing full viewport height on small screens */
+  .full-screen-carousel,
+  .carousel-container {
+    height: auto;
+    min-height: 40vh;
+  }
+
   .carousel-img {
     height: auto;
-    min-height: 100vh;
+    max-height: 55vh; /* keeps banners visible without extreme cropping */
+    object-fit: cover;
   }
-  
+
   .invite-img {
-    /* on mobile, let it scale naturally to preserve all content */
     height: auto;
-    min-height: 100vh;
+    max-height: 65vh; /* allow taller invite images but keep reasonable limit */
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 420px) {
+  .carousel-img {
+    max-height: 50vh;
+  }
+
+  .invite-img {
+    max-height: 58vh;
   }
 }

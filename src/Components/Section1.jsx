@@ -6,6 +6,9 @@ import img1 from "../assets/Images/image4.jpg";
 import img2 from "../assets/Images/homepage2.jpg";
 import img3 from "../assets/Images/Neppal-Invitation.jpeg";
 import img4 from "../assets/Images/nv-mon.jpeg"
+import img5 from "../assets/Images/MLA-Brocher.jpg"
+import img6 from "../assets/Images/Raghubabu-brocher.jpg"
+import img7 from "../assets/Images/homebanner.jpg"
 import "../Components/Section1.css";
 
 const ImageSlider = () => {
@@ -13,22 +16,22 @@ const ImageSlider = () => {
     <div className="carousel-container">
       <Carousel fade className="full-screen-carousel">
         <Carousel.Item>
-          <img className="carousel-img" src={img4} alt="Invitation slide2" />
+          <img className="carousel-img" src={img1} alt="Invitation slide2" loading="lazy" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="carousel-img invite-img" src={img3} alt="Invitation slide" />
+          <img className="carousel-img invite-img" src={img6} alt="Invitation slide" loading="lazy" />
         </Carousel.Item>
         {/* <Carousel.Item>
           <img className="carousel-img" src={img} alt="First slide" />
         </Carousel.Item> */}
         <Carousel.Item>
-          <img className="carousel-img" src={img1} alt="Second slide" />
+          <img className="carousel-img" src={img5} alt="Second slide" loading="lazy" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="carousel-img invite-img" src={img3} alt="Invitation slide" />
+          <img className="carousel-img invite-img" src={img7} alt="Invitation slide" loading="lazy" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="carousel-img" src={img2} alt="Third slide" />
+          <img className="carousel-img" src={img2} alt="Third slide" loading="lazy" />
         </Carousel.Item>
       </Carousel>
 
