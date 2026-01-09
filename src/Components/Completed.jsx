@@ -23,7 +23,6 @@ const Upcoming = () => {
       size: "120 to 500 Sq. yards",
       description: "60 acres well planned CRDA and DTCP approved venture Situated in the Amaravati capital city of Navyandhra, Central Government Land Allotments for CBI, GSI, IT Depots. Seed Access Road  Phase 3, Rail Link of Amaravati, Outer Ring Road & Expressways...",
       image: lingapuram,
-      price: "₹9,999 per Sq. Yard",
     },
     {
       title: "PUDAMI",
@@ -31,7 +30,6 @@ const Upcoming = () => {
       size: "165.00 to 475.00 sq. yards",
       description: "PUDAMI offers over 450+ thoughtfully planned open plots across 4 phases in Narasaraopet, Andhra Pradesh. Embrace a lifestyle surrounded by nature's beauty, with plots located near JNTU Narasaraopet...                                                 ",
       image: pudami,
-      price: "₹8,499 per Sq. Yard",
     },
     {
       title: "DHARANI",
@@ -39,7 +37,6 @@ const Upcoming = () => {
       size: "165.00 to 475.00 sq. yards",
       description: "Discover a prime opportunity to build your future at Dharani, an open plots venture on Palapadu Road in Narasaraopet, Andhra Pradesh. Dharani offers the perfect blend of convenient location and a peaceful environment....",
       image: dharani,
-      price: "₹8,499 per Sq. Yard",
     },
     {
       title: "SUKHIBAVA",
@@ -47,7 +44,6 @@ const Upcoming = () => {
       size: "150 to 300 sq. yards",
       description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
       image: sukhibava,
-      price: "₹7,800 per Sq. Yard",
     },
     {
       title: "SUKHIBAVA",
@@ -55,7 +51,6 @@ const Upcoming = () => {
       size: "150 to 300 sq. yards",
       description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
       image: etheru,
-      price: "₹7,800 per Sq. Yard",
     },
     {
       title: "LOGILLU",
@@ -63,7 +58,6 @@ const Upcoming = () => {
       size: "150 to 300 sq. yards",
       description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
       image: logillu,
-      price: "₹7,800 per Sq. Yard",
     },
     {
       title: "Health City",
@@ -71,7 +65,6 @@ const Upcoming = () => {
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
       image: healthcity,
-      price: "₹10,200 per Sq. Yard",
     },
     {
       title: "LAM",
@@ -79,7 +72,6 @@ const Upcoming = () => {
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
       image: lam,
-      price: "₹10,200 per Sq. Yard",
     },
     {
       title: "NEW TOWNSHIP",
@@ -87,7 +79,6 @@ const Upcoming = () => {
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
       image: newtownship,
-      price: "₹10,200 per Sq. Yard",
     },
     {
       title: "DAMARAPALLI PHASE 1",
@@ -95,7 +86,6 @@ const Upcoming = () => {
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
       image: damarapalli,
-      price: "₹10,200 per Sq. Yard",
     },
     {
       title: "KANTHERU PHASE 1",
@@ -103,7 +93,6 @@ const Upcoming = () => {
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
       image: kantheru,
-      price: "₹10,200 per Sq. Yard",
     }
   ];
 

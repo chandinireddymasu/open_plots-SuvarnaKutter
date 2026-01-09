@@ -7,7 +7,7 @@ import sukhibava from '../assets/Images/sukhibava2.jpg';
 import healthcity from '../assets/Images/healthcity.jpg';
 import kantheru from '../assets/Images/kantheru.jpg';
 import logillu from '../assets/Images/logillu.jpg';
-import damarapalli from '../assets/Images/damarapalli.jpg';
+import damarapallip2layout from '../assets/Images/dp2-layout.png';
 
 
 const Ongoing = () => {
@@ -20,15 +20,13 @@ const Ongoing = () => {
       size: "200 to 900 sq. yards",
       description: "Our DTCP and CRDA approved venture near Lam, Guntur offers 455+ open plots across 6 phases, complete with essential amenities like a Children's park, Yoga space, Gym, Street Lights, Avenue plants, Compound wall, and water tank etc..",
       image: newtownship,
-      price: "₹25,000 per Sq. Yard",
     },
     {
       title: "DAMARAPALLI PHASE 2",
       location: "DAMARAPALLI PHASE 2, Amaravati, AP",
       size: "150 to 1100 sq. yards",
       description: "We developed a premium open plots venture spread across 26 acres with 300+ well-planned plots, offering all modern amenities. The venture is strategically located near the Amaravati Inner Ring Road, ensuring excellent connectivity. It is also close to leading educational institutions, making it ideal for families and investors...",
-      image: damarapalli,
-      price: "₹15,000 per Sq. Yard",
+      image: damarapallip2layout,
     },
     {
       title: "KANTHERU PHASE 2",
@@ -36,7 +34,6 @@ const Ongoing = () => {
       size: "200 to 600 sq. yards",
       description: "Kantheru is experiencing a surge in development, driven by its proximity to the Amaravati capital region and ongoing infrastructure projects. This makes it an attractive location for both residential and investment purposes. The area is witnessing rapid appreciation in land value, making now the perfect time to invest.",
       image: kantheru,
-      price: "₹10,200 per Sq. Yard",
     },
     {
       title: "LOGILLU",
@@ -44,7 +41,6 @@ const Ongoing = () => {
       size: "150 to 300 sq. yards",
       description: "Ongole is a rapidly growing city in Andhra Pradesh, benefiting from strong highway connectivity and participation in the Amrit Bharat Scheme. The city relies on its Summer Storage Tank for drinking water and has seen significant development, including a 25-acre open plot venture with comprehensive facilities, greenery, and wide roads....",
       image: logillu,
-      price: "₹7,800 per Sq. Yard",
     },
     {
       title: "SUKHIBAVA",
@@ -52,7 +48,6 @@ const Ongoing = () => {
       size: "150 to 680 sq. yards",
       description: "We’ve launched a premium open‑plots venture across 20 acres with 200 meticulously planned plots near Eheturu, Bapatla, equipped with modern infrastructure and amenities. Positioned along NH‑216 and the upcoming Bengaluru–Vijayawada expressway corridor, the site offers exceptional connectivity With Bapatla district being developed as a major tourism and aquaculture hub...",
       image: etheru,
-      price: "₹10,800 per Sq. Yard",
     },
     {
       title: "Health City",
@@ -60,7 +55,6 @@ const Ongoing = () => {
       size: "200 to 1200 sq. yards",
       description: "Health City Layout by Suvarna Kuteer Developers, a DTCP-approved open plots venture in Piduguralla, Palnadu District, near the government hospital and college. Spread across prime residential land with wide roads, open space, and modern planning across Phase I & II. Ideal for peaceful living and smart investment in a rapidly developing location......",
       image: healthcity,
-      price: "₹10,200 per Sq. Yard",
     },
   ];
 

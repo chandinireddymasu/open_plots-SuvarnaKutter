@@ -52,4 +52,23 @@
   color: black;
 }
 
+/* special handling for invitation image - use contain instead of cover */
+.invite-img {
+  object-fit: contain;
+  object-position: center;
+  background-color: #f5e6d3; /* match invitation background color */
+}
 
+/* mobile adjustments */
+@media (max-width: 768px) {
+  .carousel-img {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .invite-img {
+    /* on mobile, let it scale naturally to preserve all content */
+    height: auto;
+    min-height: 100vh;
+  }
+}

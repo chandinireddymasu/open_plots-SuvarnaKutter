@@ -69,47 +69,47 @@
   }
   
 
-  @media (max-width: 768px) {
-    .footer {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    .corporate-office{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      
-      
-    }
-    .map{
-      display: flex;
-      margin-left: 100px;
-      justify-content: center;
-    }
-    .quick-enquiry{
-      margin-left: 100px;
-      
-    }
-    .quick-enquiry input,
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+  }
+
+  .corporate-office,
+  .map,
+  .quick-enquiry {
+    margin: 0 0 20px 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .map-container,
+  .map iframe {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    height: 180px !important;
+    margin: 0 auto !important;
+    display: block;
+  }
+
+  .quick-enquiry input,
   .quick-enquiry button {
-  width:80vw;
-  margin-left: 100px;
-  display: flex;
-  flex-direction: column;
+    width: 100% !important;
+    margin-left: 0 !important;
+    box-sizing: border-box;
   }
-  
-    .corporate-office,
-    .map,
-    .quick-enquiry {
-      
-      margin-bottom: 20px;
-      width: 100%;
-      margin-left:"50px"
-    }
-  
-    .popup {
-      width: 80%;
-      text-align: center;
-    }
+
+  .quick-enquiry {
+    margin-left: 0 !important;
+    padding: 0 5px;
   }
+
+  .popup {
+    width: 95% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+}

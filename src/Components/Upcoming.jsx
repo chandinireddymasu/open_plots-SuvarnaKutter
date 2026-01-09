@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import img1 from '../assets/Images/img3.jpg';
 import img2 from '../assets/Images/img3.jpg';
-import futurecity from '../assets/Images/futurecity.jpg';
+import futurecity from '../assets/Images/Futurecity.jpg';
 import vijayawada from '../assets/Images/vijayawada.jpg';
 import mokila from '../assets/Images/mokila.jpg';
 import lingapuram from '../assets/Images/lingapuram.jpg';
@@ -17,7 +17,6 @@ const Upcoming = () => {
       size: "46.67 to 500 Sq. yards",
       description: "Situated in the rapidly growing area of Bheemaram, Shadnagar, Southern Vista is a high-end plotted community designed for those who value exclusivity and long-term investment potential...",
       image: futurecity,
-      price: "₹9,999 per Sq. Yard",
     },
     {
       title: "VIJAYAWADA ",
@@ -25,7 +24,6 @@ const Upcoming = () => {
       size: "165.00 to 475.00 sq. yards",
       description: "Green Meadows offers open plots for sale in Chegunta, Hyderabad with nature-centric surroundings and future developments...",
       image: vijayawada,
-      price: "₹8,499 per Sq. Yard",
     },
     {
       title: "DAMARAPALLI PHASE 2",
@@ -33,7 +31,6 @@ const Upcoming = () => {
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
       image: lingapuram,
-      price: "₹10,200 per Sq. Yard",
     },
     {
       title: "NATURE'S NEST",
@@ -41,7 +38,6 @@ const Upcoming = () => {
       size: "150 to 300 sq. yards",
       description: "A serene environment with temple views and a peaceful layout ideal for weekend homes and rental income opportunities...",
       image: futurecity,
-      price: "₹6,200 per Sq. Yard",
     },
     {
       title: "CITY GARDENS",
@@ -49,7 +45,6 @@ const Upcoming = () => {
       size: "200 to 600 sq. yards",
       description: "City Gardens offers top-class infrastructure in one of the most elite residential pockets of Hyderabad. Investment ready...",
       image: mokila,
-      price: "₹20,200 per Sq. Yard",
     },
   ];
 
